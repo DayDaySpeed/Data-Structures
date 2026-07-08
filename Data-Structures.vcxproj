@@ -141,7 +141,11 @@
   <ItemGroup>
     <ClCompile Include="CurrentDemo.h" />
     <ClCompile Include="example1.cpp" />
+    <ClCompile Include="LinkList.cpp" />
     <ClCompile Include="SqStack.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LinkList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
