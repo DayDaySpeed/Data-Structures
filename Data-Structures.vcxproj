@@ -139,7 +139,9 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Data-Structures.cpp" />
+    <ClCompile Include="CurrentDemo.h" />
+    <ClCompile Include="example1.cpp" />
+    <ClCompile Include="SqStack.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

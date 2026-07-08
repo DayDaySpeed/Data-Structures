@@ -13,9 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\algorithm">
+      <UniqueIdentifier>{f777559d-a5f4-44a3-a58e-3f4543084f22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DataStructures">
+      <UniqueIdentifier>{7e33eea3-53ff-4573-9886-d068a8d4d2f6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Data-Structures.cpp">
+    <ClCompile Include="example1.cpp">
+      <Filter>源文件\algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="SqStack.cpp">
+      <Filter>源文件\DataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrentDemo.h">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

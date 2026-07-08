@@ -2,21 +2,29 @@
 //
 
 #include <iostream>
+#include "CurrentDemo.h"
+
+#if Demo == EXAMPLE1
+
 
 void loveYou(int n) {
     for (int i = 0; i < n; ++i) {
+
         std::cout << "I love you! " << i + 1 << "\n";
     }
 }
 
 int main()
 {
+	std::cout << DEMO << "\n";
     int n = 3000;
     loveYou(n);
     std::cout << "I Love You More Than " << n << "!\n";
     return 0;
 }
 
+
+#endif
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
 // 调试程序: F5 或调试 >“开始调试”菜单
 
