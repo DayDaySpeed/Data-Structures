@@ -1,3 +1,4 @@
+#include "CurrentDemo.h"
 #if DEMO == LINKLIST
 #include <cstdlib>
 #include <cstddef>

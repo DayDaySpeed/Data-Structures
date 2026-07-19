@@ -33,6 +33,15 @@
     <ClCompile Include="LinkList.cpp">
       <Filter>源文件\DataStructures</Filter>
     </ClCompile>
+    <ClCompile Include="SqQueue.cpp">
+      <Filter>源文件\DataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="BiTNode.cpp">
+      <Filter>源文件\DataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="KMP.cpp">
+      <Filter>源文件\algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkList.h">
