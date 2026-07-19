@@ -19,6 +19,9 @@
     <Filter Include="源文件\DataStructures">
       <UniqueIdentifier>{7e33eea3-53ff-4573-9886-d068a8d4d2f6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\leetcode">
+      <UniqueIdentifier>{ce04386f-bfa9-45c0-bac2-04cb6859efd1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="example1.cpp">
@@ -41,6 +44,9 @@
     </ClCompile>
     <ClCompile Include="KMP.cpp">
       <Filter>源文件\algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoSum.cpp">
+      <Filter>源文件\leetcode</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

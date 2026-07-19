@@ -9,7 +9,10 @@
 #define LINKLIST 3
 #define SQQUEUE 4
 #define KMP 5
+#define TWOSUM 6
 
-#define DEMO KMP	
+
+
+#define DEMO TWOSUM	
 
 #endif
