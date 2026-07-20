@@ -19,7 +19,7 @@ public:
 	public:
 		Node* ptr;
 
-		iterator(Node* p = nullptr)
+		iterator(Node* p = nullptr)	//默认参数为nullptr
 		{
 			ptr = p;
 		}
@@ -90,7 +90,7 @@ public:
 	// 尾后迭代器
 	iterator end()
 	{
-		return iterator(nullptr);
+		return iterator();
 	}
 
 	// 打印整个哈希表
@@ -161,7 +161,7 @@ int main() {
 	}
 
 	// 测试两数之和
-	vector<int> arr = { 11,15,2,7 };
+	vector<int> arr = { 2,11,15,7 };
 	Solution sol;
 	vector<int> res = sol.twoSum(arr, 9);
 	cout << "\ntwoSum result: " << res[0] << " " << res[1] << endl;
