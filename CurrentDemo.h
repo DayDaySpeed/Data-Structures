@@ -10,9 +10,9 @@
 #define SQQUEUE 4
 #define KMP 5
 #define TWOSUM 6
+#define GROUPANAGRAMS 7
 
 
-
-#define DEMO TWOSUM	
+#define DEMO GROUPANAGRAMS	
 
 #endif

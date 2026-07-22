@@ -142,6 +142,7 @@
     <ClCompile Include="BiTNode.cpp" />
     <ClCompile Include="CurrentDemo.h" />
     <ClCompile Include="example1.cpp" />
+    <ClCompile Include="GroupAnagrams.cpp" />
     <ClCompile Include="KMP.cpp" />
     <ClCompile Include="LinkList.cpp" />
     <ClCompile Include="SqQueue.cpp" />

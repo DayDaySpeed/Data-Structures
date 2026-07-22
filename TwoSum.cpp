@@ -1,3 +1,8 @@
+#include "CurrentDemo.h"
+#ifndef DEMO == TWOSUM
+
+
+
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -168,3 +173,6 @@ int main() {
 
 	return 0;
 }
+
+
+#endif // !DEMO == TWOSUM
