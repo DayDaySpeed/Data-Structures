@@ -145,6 +145,7 @@
     <ClCompile Include="GroupAnagrams.cpp" />
     <ClCompile Include="KMP.cpp" />
     <ClCompile Include="LinkList.cpp" />
+    <ClCompile Include="LongestConsecutiveSequence.cpp" />
     <ClCompile Include="SqQueue.cpp" />
     <ClCompile Include="SqStack.cpp" />
     <ClCompile Include="TwoSum.cpp" />

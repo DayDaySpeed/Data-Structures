@@ -1,5 +1,5 @@
 #include "CurrentDemo.h"
-#ifndef DEMO == TWOSUM
+#if DEMO == TWOSUM
 
 
 

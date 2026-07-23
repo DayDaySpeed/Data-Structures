@@ -51,6 +51,9 @@
     <ClCompile Include="GroupAnagrams.cpp">
       <Filter>源文件\leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="LongestConsecutiveSequence.cpp">
+      <Filter>源文件\leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkList.h">

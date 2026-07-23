@@ -1,5 +1,5 @@
 #include "CurrentDemo.h"
-#ifdef DEMO==GROUPANAGRAMS
+#if DEMO==GROUPANAGRAMS
 #include <vector>
 #include <string>
 #include <unordered_map>
